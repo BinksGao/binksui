@@ -4,7 +4,7 @@
 
 - 全局导入 
 ```
-    import BinksUI form 'binks-ui'
+    import BinksUI from 'binks-ui'
     import 'binks-ui/dist/binks-ui.css'
     Vue.use(BinksUI)
 ```
