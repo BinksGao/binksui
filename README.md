@@ -1,24 +1,12 @@
-# components
+- 本项目仅作为vue组件封装的练习参考
 
-## Project setup
-```
-yarn install
-```
+- 初始化vue项目 vue created demo
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+- 安装组件库 yarn add binks-ui
 
-### Compiles and minifies for production
+- 全局导入 
 ```
-yarn build
+    import BinksUI form 'binks-ui'
+    binks-ui/dist/binks-ui.css
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Vue.use(BinksUI)
